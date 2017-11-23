@@ -244,7 +244,7 @@ class ApiTester extends Extension
      */
     protected function getRouteParameters($action)
     {
-        if (is_callable($action)) {
+        if (is_callable($action) || $action === 'Closure') {
             return [];
         }
 
