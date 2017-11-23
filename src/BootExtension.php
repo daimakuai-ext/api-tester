@@ -19,7 +19,7 @@ trait BootExtension
     }
 
     /**
-     * Register routes for laravel-admin.
+     * Register routes for daimakuai-ext.
      *
      * @return void
      */
@@ -43,7 +43,7 @@ trait BootExtension
     }
 
     /**
-     * Import assets into laravel-admin.
+     * Import assets into daimakuai-ext.
      */
     public static function importAssets()
     {
