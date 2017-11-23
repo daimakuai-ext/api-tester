@@ -206,7 +206,7 @@
 
                 <ul class="nav nav-pills nav-stacked routes" style="margin-top: 5px;">
                     @foreach($routes as $route)
-                        @php ($color = Encore\Admin\ApiTester\ApiTester::$methodColors[$route['method']])
+                        @php ($color = Jblv\Admin\ApiTester\ApiTester::$methodColors[$route['method']])
                         <li class="route-item"
                             data-uri="{{ $route['uri'] }}"
                             data-method="{{ $route['method'] }}"
@@ -227,7 +227,7 @@
                 {{--<div class="tab-pane" id="tab_2">--}}
                     {{--<ul class="nav nav-pills nav-stacked routes" style="margin-top: 5px;">--}}
                         {{--@foreach($logs as $route)--}}
-                            {{--@php ($color = Encore\Admin\ApiTester\ApiTester::$methodColors[$route['method']])--}}
+                            {{--@php ($color = Jblv\Admin\ApiTester\ApiTester::$methodColors[$route['method']])--}}
                             {{--<li class="route-item"--}}
                                 {{--data-uri="{{ $route['uri'] }}"--}}
                                 {{--data-method="{{ $route['method'] }}"--}}
